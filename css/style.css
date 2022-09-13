@@ -1,0 +1,139 @@
+* {
+    margin:  0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.contenedor{
+   
+   display: block;
+   background-color: rgb(148, 164, 233);
+   height: 100%;
+   width: 100%;
+}
+
+.logo{
+    padding-left: 10px;
+    font-size: 32px;
+    cursor:default;
+}   
+
+.letras{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.letraIndividual{
+    text-align: center;
+    font-size: 2.8rem;
+    border-bottom: 3px solid #FFF;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    justify-self: baseline;
+    width: 50px;
+    height: 45px;
+    color:  rgb(70, 70, 253);
+}
+
+#mostrarInfo{
+    margin-right: 8px;
+    height: 20px;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+    color:  rgb(243, 116, 116);
+    letter-spacing: normal;
+    cursor:default;
+    
+}
+
+#puntos{
+    margin-right: 8px;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    color:  rgb(70, 70, 253);
+    letter-spacing: normal;
+    cursor:help;
+    height: 30px;
+    
+}
+
+#palabrasTotales{
+    margin: 8px;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+    color:  rgb(70, 70, 253);
+    letter-spacing: normal;
+    cursor:default;
+    
+}
+
+.areaAnimada{
+    margin: auto;
+    width: 95%;
+    display: block;
+}
+
+#imagen{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 50%;
+    
+    
+}
+
+.canvas{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#palabras{
+    margin-top: -20px;
+    height: 10px;
+}
+
+.botonera{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(61, 61, 61);
+    height: 70px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: none;
+    background-color:  rgb(70, 70, 253);
+    
+}
+
+.footer{
+    display: flex;
+    cursor:default;
+    justify-content: center;
+    flex-direction: column; 
+    height: 30px;
+    background-color: black;
+    width: 100%;
+    font-size: 10px;
+    text-align: right; 
+    letter-spacing: 1.5px;
+}
+
+
+    
